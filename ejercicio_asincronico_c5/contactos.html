@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Pagina Web Fotógrafo</title>
+</head>
+
+<body>
+    <header class="fondo-header">
+        <div class="con-nav">
+            <div class="menu_izq">
+                <a href="index.html">home</a>
+                <a href="contactos.html" class="p-e">contáctanos</a>
+            </div>
+            <div class="menu_central">
+                <img src="/img/logo2.png" alt="logo">
+            </div>
+            <div class="menu_der">
+                <a href="#">Ubicación</a>
+                <a href="#"" class=" p-e">Nosotros</a>
+            </div>
+        </div>
+    </header>
+    <!-- _____________________________________________________ -->
+    <main>
+        <div id="titulo">
+            <h1>Contáctanos</h1>
+        </div>
+        
+        <div class="contenedor_formulario">
+            <div></div>
+            <div>
+                <form action="https://formspree.io/f/xrgjjbnp" method="post">
+
+                    <div class="caja">
+                        <label class="nom-campos">Nombre </label>
+                        <input name="nombre" class="campos" type="text" placeholder="Ingresa Tu Nombre" required="required">
+                    </div>
+                    <!-- *********************************************************** -->
+
+                    <div class="caja">
+                        <label class="nom-campos">Correo</label>
+                        <input name="correo" class="campos" type="email" placeholder="Ingresa Tu E-Mail" required="required">
+                    </div>
+
+                    <div class="caja">
+                        <label class="nom-campos">Telefono</label>
+                        <input name="telefono" class="campos" type="tel" placeholder="Ingrese Telefono"
+                            required="required">
+                    </div>
+
+                   
+                    <div class="caja">
+                        <label class="nom-campos">Consultas:</label>
+                        <textarea name="consulta"  cols="48" rows="5" required="required"></textarea>
+                    </div>
+
+                   
+                    <div class="cajaBoton">
+                        <input class="boton" type="submit">
+                    </div>
+                </form>
+         
+            </div>
+        </div> 
+</main>
+    <!-- ______________________________________________________-->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
