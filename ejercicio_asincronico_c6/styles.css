@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+/*UTILIDADES*/
+
+
+body{  
+    background: linear-gradient(0deg, rgba(34,193,195,0.5886555305716037) 0%, rgba(253,45,224,0.46540623085171573) 70%), url('https://img.freepik.com/vector-gratis/huella-pata-perro-o-gato-diseno-patron-corazon_1017-36752.jpg'); 
+ 
+}
+.red-tam {
+    width: 100%;
+    height: 100%;   
+} 
+
+.pr{
+    margin-top: 10rem;
+    border: 3px solid black;
+    padding-bottom: 10rem;
+    margin-bottom: 60px;
+
+    border-radius: 26px 26px 26px 26px;
+    background-color: rgba(60, 237, 250, 0.644);
+    box-shadow: 10px -11px 18px 4px rgba(0,0,0,0.73);
+
+}
+#navegacion{
+    background-color: rgb(238, 99, 146);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#card{
+    margin-bottom: 4rem;
+}
+
+
+/*FORMULARIO*/
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-family: 'Mali', cursive;
+}
+.campos,
+#select {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #241e1e;
+    /* transition: all 0.3s ease; */
+    margin-top: 16px;
+}
+.borde {
+    border: 10px double rgb(117, 84, 84);
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+}
+
+.btn-color {
+    background-color: #1e202231;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+}
+
+.btn-color:hover,
+.btn-color:focus,
+.btn-color:active {
+    background-color: #83dde4;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+/*Lista*/
+#tips li {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+#tips li,
+.map p {
+    font-family: 'Poppins', sans-serif
+}
+
+.map {
+  
+    min-width: 2rem;
+    background-color: pink;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* https://images.pexels.com/photos/7726303/pexels-photo-7726303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+https://images.pexels.com/photos/8434677/pexels-photo-8434677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 */

@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.port": 5501,
+    "workbench.tree.renderIndentGuides": "onHover",
+    "workbench.tree.indent": 4,
+    "html.format.indentInnerHtml": false,
+    "editor.autoIndent": "full",
+    "editor.wrappingIndent": "same",
+    "html.format.indentHandlebars": false
+}
